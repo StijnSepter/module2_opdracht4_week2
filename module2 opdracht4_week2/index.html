@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>float</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAB1CAMAAAAhpfXwAAAAhFBMVEX///8AAAB/f39MTEyurq7v7++/v7+7u7v6+vpjY2Orq6vIyMh3d3eysrLY2Nh7e3tnZ2eUlJSJiYn19fXd3d3S0tKlpaU9PT3n5+fg4OBWVlbKysosLCyYmJgdHR0oKCg0NDRFRUVvb2+GhoYPDw8yMjJVVVWenp4iIiIWFhZBQUFeXl5bnfQhAAAI0ElEQVR4nO2ca2OiOhCGAwp4QRQFFfGKtbb6///fYWaSkKDuatfuHss8H7YkhODmJclMGCIEwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzBM05jkg/Yv6eWdf/0bGcJbbZw7aPX+9Q9lyo4V3qMVcbxaQ947TntBJFNJe0AEQT8xSkVlfk91Uc/3A8RHhCjLt+lUNrCqwyoH0zLLlxenZT0TfcoPBt5T2uE18O8Xq2Rz0TTzQp8M8eTRusDXBTG5un5XOgsngrXOVGWnbypnNIf0qDzSP2NcJkxlfzix0qHVai0W5+4Vzt3z4n2nmiy1r+9ZzR6UOVNbCaWXzJY95JZcezP3EwpPlmYWjMdFc+WSak3vGE8yOWhajUMitNx4v8CjnLLGMeBCt5jJkrK9Y0oFcFWIDF03VHJl2IeOvd4R++xZiA52rdP4SDlOv8ly0UM+vrO018LikypnDumh7DFjavJpVaQj+4ygIbI/090L5BqYdVNJyJbz4wRy5gKfETkFulSosYPhRD2w94Jj1a5KD8ukq1NRFKWWXCDCmz5ai75+NkCXtllzJdfSxxlKeGmaeyi41sYtiu5cdEHHDoG/qClyhebk8pUrPlR36YFvBtZdinJF8yxLotTVo19MvemgpARdxmlOwHRIcnXUHHU4j/EuIHBR+w1dp0ZD5PIcq3PcBXhoS53Sg51uumPN1CDzDmT4FNT6eMPALLOpapqbhkWp9MCpLETFqKFyraqp5W5Sq30u5erZcm1oJoIZZtqZTLB7wdhmybU1a0rjd32iwMm1/kA1Va7NlUf3t4C5oG0TaFm0A8ppK8qgHfsoV+u99AveZ6SfmiMVQ0FyvQ+JEKojuWA2ArzER8PF86wnCobYSVNNDWl7PUhbdged+FRNl1LTglzSVgwcmnksbwrb+oZlaPYVMGNSfDpaMgfN/MbKFTnabnuAufW8byHl+lGSDs4OSTCtWhPucKbn4u28QMAXCEkuawmSasUVkX0elWbKih6mCAUe96MoQMfLbawhnxoP7v3Yw1PHWnNAn8mQKyO5XLMrbVGFG3KJnVXdQtRmOXS6GypX/wlyVatYMEbiApUhF3SrJV5R9eK8TI3Q4rsml1mdtOCTWZWDM23XlKs5fpf/dbmsd1/++Hxa7kbHjJL9oRsqN9l13aHwy38MV3zv7ociDd1hblaCJam6fVndaeG2tSTJcXTabN/3ASWnxg3EoEw8PP++JM+Si/krsFwvRcByvRIs10vBcr0UT5ArC4JA2WUQfKHX6lOIw8CjJJgakRdpYOKJCP9VPyjwc6rTiNSYQFTHA+94fixPkGtqOMCRdozIpcMTlRs1xmvsMJ4+ntdaOLhs33Yszw7fSZ6+9B/8WfyBZajcnp65XpEqjWhx7yj/asCJHtbkWtXkWtI7k6pWWh1+/Gf+PJ4tF60XpbLIXv51WvExxvVEWIoAuWLFOLst14fMi1kuydPlolddmYBoGFhAOkH708w0gcibM8ll1nZTLpXrsFyS58tF0TWwxvcu5GSmT42K4n65tiqC6lhOZxuWC/gGuZQpgW19dC7Dfmnuevtcr9cfb95NuXI51UHWdMtyAd8hlzhXEw90tXrcjmVqzElSXaY8PpBcYkc/DeoXS5YL+Ba5xKc+DVZC/SsIS66kVoGDFjvKldNpNFlYLuR75Nrq2cl3TIcpy7JEzl0dFSQorNAZcAS6Ui7Q6IyHnuDBEHmSXIF9/lAZE46hhU92R93U8OSgqK6cKrnAKZh/oIU5Y7mAJ8k1HPQkU8gy5EK7fn1Mk0gHcmC8TN6XeDLGcxVFEX160lFygTcADkHGckmeJJcBZBly1dYwioucvhG3i8ALZikXVQ3RGieWC/geuTbmcOe/VScxJL6+ZigdaOITF3bbsgLMAmt+a4XlN5YnyJUPXYMQssbyrySNz7PlrBvLwIy2eUFIX5YkcXc3O727fV0nVhCUJfZwELvuw8GrP5AnyMX8PViul4Lleik4Euql+IMoXpbr7/MEubLA17EaAvbIgBwC3GD8MjJSOX6eUtlU55SoUA2vP+i1A7WvQBT0+3rEhbt4wqwYaNqA/AS5zFgNCnO3d9WAJXbLM96Ca3XpfAn/pJIFSmp9qQDeXWr7047+vrwx5F+XSyXqC+rr+q4azpJiYyqyK0sbYmdmwCo+rObrHTzaV+VqxocMFbACPvt9sRq/lOtD+OdRCaxUbAs4KlAud7zf7138QKuQARtjiZvg8rvjfIarmL5j9a/JJRZYHbyfwYrPTetd+GHdw0YDDKGfKlGXayMPIQRqL4/d6i4ZdreLZflYj4nyQ8urchGn2rUNAlom+H0xm9Axtk6oy6X2BEic6tUJyGXss3G6lMsa2vajopvclmvWXLnCL4yGHTlaEXW5DvKwLlfizUuSkGYmkAuiNdabw3btYeH6Gq75VR7CclEc50O7oEgzQafgudebzzjVN+Z1uSpW4iJgA37GsHYblusK+CH4Q/4LRlNXe0jBO9+pShh99aZcJ3g6LLkyDHDr1u7Dcl0Bu9f6AWuDvsOvLgD11OuS7Bdy7RCw6sCkqAVsdKw6J9k8m6BcuSxDfpc83WS55JN/t0lMAbbG8DkxLt861aYqdbmMPdniS1MDNlNRDqDc7INNjavQYsLwrgExov3xrO300JVapVEUfJh95IZl6NPlIFeUp0iUTuSXD3GeJTmGAZ9/Ycg3Wy4h98Xoxr3BQG6Pa67oVRxlSdso6Bhv9w2v4IZcMHbu66saqZwRNW8dlusmC+ch6lHUnXN1rvpoLjF0NeSSRsXlmqG5dwbOhZZc5txVhTE2lPYDYh2uTHNZ3N0dtq3Q9AjmRVioAN5eeawG2yIMy07XCw0KcpCTY3f7sdyFbSoalBfpe/XLhNy0Q4zDcPTc//+r0VndKdbsQR+N+Sai6dgdhsPi2kbXktG0GZvDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzD/G/5D4WzeUHPWPMIAAAAAElFTkSuQmCC"
+          alt="GLU logo"
+        />
+      </div>
+      <div id="sidebar">
+        <div id="a">1</div>
+        <div id="b">2</div>
+        <div id="c">3</div>
+        <div id="d">4</div>
+      </div>
+      <div id="content">
+        <div id="e">5</div>
+        <div id="f">6</div>
+      </div>
+      <div id="footer">
+        <div id="g">7</div>
+      </div>
+    </div>
+  </body>
+</html>
